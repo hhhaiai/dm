@@ -1,0 +1,12 @@
+bin/
+gen/
+obj/
+build/
+repos/
+.gradle/
+.settings/
+local.properties
+lint.xml
+.classpath
+.project
+assets/
