@@ -2,8 +2,6 @@ package cn.dm.util;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.net.UnknownHostException;
-
 import android.util.Log;
 
 /**
@@ -20,11 +18,11 @@ public class L {
 
     private L() {
         /* cannot be instantiated */
-
         throw new UnsupportedOperationException("cannot be instantiated");
     }
 
-    public static boolean isDebug = true;// 是否需要打印bug，可以在application的onCreate函数里面初始化
+    // 是否需要打印bug，可以在application的onCreate函数里面初始化
+    public static boolean isDebug = true;
     private static String TAG = "sanbo";
 
     // 下面四个是默认tag的函数
